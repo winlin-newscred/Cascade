@@ -1,7 +1,13 @@
 html, body {
-	background: #000;
 	height: 100%;
+	background: #000;
 	color: #fff;
+	&.homepage {
+		background: rgba(0, 0, 0, 0.6);
+		a {
+			display: inline;
+		}
+	}
 }
 
 * {
@@ -170,6 +176,11 @@ a {
 			background: transparent;
 			border: 1px solid #363636;
 			margin-bottom: -1px;
+			&.get-started {
+				border: 1px solid #fff;
+				width: 300px;
+				margin: 40px auto;
+			}
 		}
 	}
 }
