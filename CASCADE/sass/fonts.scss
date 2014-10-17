@@ -1,0 +1,54 @@
+// fonts
+
+h1 {
+	font-family: "Lora", Times, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 14px;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+
+.logo {
+	color: #fff;
+	text-decoration: none;
+}
+h2 {
+	font-family: "Lora", Times, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+.article-link {
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+p {
+	font-family: "Lora", Times, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #848484;
+	line-height: 1.5;
+}
+
+.article-body {
+	padding-bottom: 20px;
+}
+
+.center {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.white {
+	color: #fff;
+}

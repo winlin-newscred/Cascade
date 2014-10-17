@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=$(".input");$("button").click(function(){t.css("visibility","visible")});var n={useEasing:!1,useGrouping:!0,separator:",",decimal:"."},u=new countUp("timercountup1",0,152,0,1.25,n);u.start();var u=new countUp("timercountup2",0,17,0,1.25,n);u.start();var u=new countUp("timercountup3",0,8,0,1.25,n);u.start()});

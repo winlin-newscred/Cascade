@@ -1,0 +1,9 @@
+//article styles
+
+.content {
+	@include span(2/4);
+	@include animation-duration(3s);
+	&.article {
+		@include animation-duration(1s);
+	}
+}
